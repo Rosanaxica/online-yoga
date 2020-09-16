@@ -1,0 +1,33 @@
+{
+    "classes": [
+        {
+            "_id":"dfsf454dsf554fs554dsf879",
+            "teacher": "#fffff",
+            "technique": "#000",
+            "startTime": "09:00",
+            "endTime": "09:30",
+            "className":"Vipassana",
+            "type":"Ao Vivo"
+        },
+        {
+            "_id":"fdgdfgfdg5554gd554f745d",
+            "teacher": "#fffff",
+            "technique": "#000",
+            "startTime": "11:00",
+            "endTime": "11:30",
+            "className":"Vipassana",
+            "type":"Reprise"
+        },   
+         {
+            "_id":"fdgdfgfdg5554gdsfsd554f745d",
+            "teacher": "#fffff",
+            "technique": "#000",
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "className":"Vipassana",
+            "type":"Reprise"
+        }
+    ]
+    
+    
+}

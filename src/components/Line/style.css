@@ -1,0 +1,22 @@
+.time {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .time::after {
+    content: '';
+    background-color: #C3CBD5;
+    border-bottom: 1px #C3CBD5 solid;
+    margin-left: 1px;
+    width: 90%;
+    display: inline-block;
+  }
+
+  
+@media screen and (max-width: 600px) {
+
+    .time::after {
+      width: 80%;
+      margin-top: 15px;
+    }
+  }

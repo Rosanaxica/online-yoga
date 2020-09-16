@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+* {
+  font-family: 'Baloo Tammudu 2', cursive;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #ECF1FA;
+  box-sizing: border-box;
+  color: #C3CBD5;
+  font-size: 16px;
+  line-height: 1;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content__container{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+nav li{
+list-style: none;
+}
+.text--bold {
+  font-weight: 700;
 }
 
-.App-link {
-  color: #61dafb;
+.text--medium {
+  font-weight: 500;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text--semibold {
+  font-weight: 600;
+}
+
+.text--regular {
+  font-weight: 400;
+}
+
+.text--big {
+  font-size: 24px;
+}
+.text--med {
+  font-size: 17px;
+}
+.text--med {
+  font-size: 17px;
 }

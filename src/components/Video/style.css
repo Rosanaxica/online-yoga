@@ -1,0 +1,40 @@
+
+  .video__container {
+    margin-top: 80px;
+    line-height: 0;
+
+  }
+  
+  .video__video {
+    background-color: rgb(226, 226, 226);
+    border-radius: 1.6em;
+    line-height: 0;
+  }
+  
+  .video {
+      width: 100%;
+      border-radius: 2em;
+      outline: none;
+    }
+
+
+  .video__badge {
+    box-sizing: border-box;
+    background-color: #E06D6D;
+    border-radius: 1.6em;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 0.8rem;
+    color: #fff;
+    padding: .5rem 0.5rem 0.5rem;
+    text-transform: uppercase;
+    position: absolute;
+    box-shadow: 1px 0 3px rgba(0, 0, 0, 0.5);
+    line-height: 1;
+
+  }
+  
+  .video__badge:before {
+    content: "• ";
+  }
+  

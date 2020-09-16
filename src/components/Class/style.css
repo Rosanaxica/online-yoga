@@ -1,0 +1,20 @@
+.class__card {
+
+    width: 350px;
+    height: 70px;
+    background-color: rgba(224, 109, 109, 0.4);
+    border-radius: 1.2rem;
+    padding: 10px;
+    color: #FFF;
+}
+
+.class__card span {
+
+    display: list-item;
+    line-height: 1;
+    padding: 0.6rem;
+    list-style: none;
+}
+.class__card--purple {
+    background-color: rgba(99, 104, 138, 0.4);
+}
